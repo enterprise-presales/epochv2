@@ -1,29 +1,58 @@
 # Mock EMR
 
-## Project info
+A modern Electronic Medical Record (EMR) system mock-up built with React and TypeScript.
 
-Follow these steps:
+## Technologies Used
 
+- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- [React](https://react.dev/) - Web Framework
+- [TypeScript](https://www.typescriptlang.org/) - Type Safety
+- [Shadcn UI](https://ui.shadcn.com/) - UI Component Library
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS Framework
+- [React Router](https://reactrouter.com/) - Client-side Routing
+- [React Query](https://tanstack.com/query/latest) - Data Fetching & State Management
+- [Netlify Functions](https://www.netlify.com/products/functions/) - Serverless Functions
+
+## Getting Started
+
+1. Clone the repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone (https://github.com/paul-pettit/epoch-emr/)
+git clone [repository-url]
+```
 
-# Step 2: Navigate to the project directory.
-cd epoch-emr
+2. Navigate to the project directory
+```sh
+cd epochv2
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Install dependencies
+```sh
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server
+```sh
 npm run dev
 ```
 
-## What technologies are used for this project?
+## Available Scripts
 
-This project is built with .
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Project Structure
+
+- `/src` - Source code
+  - `/components` - React components
+  - `/pages` - Page components
+  - `/lib` - Utility functions
+  - `/hooks` - Custom React hooks
+- `/public` - Static assets
+- `/netlify/functions` - Serverless functions
+
+## License
+
+MIT
